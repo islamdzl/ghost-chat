@@ -6,7 +6,7 @@ const PORT = 2007 || process.env.port
 
 // تحقق من Webhook عند الإعداد
 app.get('/webhook', (req, res) => {
-    const VERIFY_TOKEN = "your_custom_token";
+    const VERIFY_TOKEN = "islamdzl_ghost-chat";
     
     const mode = req.query['hub.mode'];
     const token = req.query['hub.verify_token'];
